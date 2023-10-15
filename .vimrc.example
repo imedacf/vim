@@ -70,3 +70,5 @@ nnoremap <leader><Up> :wincmd k<CR>
 command! W w
 command! Q q
 
+nnoremap <leader>t :NERDTree<CR>
+
