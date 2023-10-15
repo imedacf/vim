@@ -13,6 +13,9 @@ set shiftwidth=4    " Indents will have a width of 4
 
 set softtabstop=4   " Sets the number of columns for a TAB
 
+" Set tab settings specifically for TypeScript and JavaScript files
+autocmd FileType typescript,javascript,json set tabstop=2 shiftwidth=2 softtabstop=2
+
 set autoindent      " Start next line considering previus
                     " lines' tab space
 
