@@ -27,11 +27,14 @@ set number          " Show numbers
 hi LineNr  guifg=#505050   guibg=#282c34
 hi Normal  guifg=White     guibg=#282c34
 
-set guifont=Monaco:h20
+" set guifont=Monaco:h20
+set guifont=FiraCode\ 16
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 :helptags ~/.vim/bundle/ctrlp.vim/doc
+
+let mapleader = "\ "
 
 " Emmet Configuration
 let g:user_emmet_leader_key=','
@@ -46,4 +49,24 @@ let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
 let g:ctrlp_working_path_mode=""
 let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git\|dccache\|dist'
+
+set splitbelow
+set splitright
+
+" Keys
+nnoremap <leader>p :CtrlP<CR>
+
+nnoremap <leader>. :bn<CR>
+nnoremap <leader>, :bp<CR>
+
+nnoremap <leader>h :wincmd s<CR>
+nnoremap <leader>v :wincmd v<CR>
+
+nnoremap <leader><Right> :wincmd l<CR>
+nnoremap <leader><Down> :wincmd j<CR>
+nnoremap <leader><Left> :wincmd h<CR>
+nnoremap <leader><Up> :wincmd k<CR>
+
+command! W w
+command! Q q
 
