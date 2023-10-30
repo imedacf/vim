@@ -1,8 +1,13 @@
-syntax on           " Syntax highlighting
+"syntax on           " Syntax highlighting
 set re=0
 
-colorscheme molokai " Set Color Theme
-
+" colorscheme molokai " Set Color Theme
+" colorscheme apprentice
+" colorscheme archery
+" colorscheme dogrun
+" colorscheme focuspoint
+" colorscheme gotham
+colorscheme PaperColor
 
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
@@ -26,12 +31,6 @@ set scrolloff=10
 set linespace=5
 
 set number          " Show numbers
-
-hi LineNr  guifg=#505050   guibg=#282c34
-hi Normal  guifg=White     guibg=#282c34
-
-" set guifont=Monaco:h20
-set guifont=FiraCode\ 16
 
 set splitbelow
 set splitright
