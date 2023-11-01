@@ -35,3 +35,5 @@ set number          " Show numbers
 set splitbelow
 set splitright
 
+let NERDTreeShowHidden=1
+
