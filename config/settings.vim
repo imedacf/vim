@@ -37,3 +37,5 @@ set splitright
 
 let NERDTreeShowHidden=1
 
+let g:localvimrc_ask = 0
+
