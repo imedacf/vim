@@ -18,8 +18,8 @@ nnoremap <leader><Up> :wincmd k<CR>
 command! W w
 command! Q q
 
-" Toggle NERDTree
-nnoremap <leader>t :NERDTree<CR>
+" Open NERDTree
+nnoremap <leader>nt :NERDTree<CR>
 
 " Show Errors
 command! Errors CocDiagnostics
@@ -31,4 +31,7 @@ vnoremap <leader>y "+y
 " Paste from clipboard
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
+
+" Open terminal + vertical
+nnoremap <leader>t :vert term<CR>
 

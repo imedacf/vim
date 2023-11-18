@@ -1,13 +1,13 @@
-"syntax on           " Syntax highlighting
+" syntax on           " Syntax highlighting
 set re=0
 
 " colorscheme molokai " Set Color Theme
 " colorscheme apprentice
 " colorscheme archery
 " colorscheme dogrun
-" colorscheme focuspoint
+colorscheme focuspoint
 " colorscheme gotham
-colorscheme PaperColor
+" colorscheme PaperColor
 
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
