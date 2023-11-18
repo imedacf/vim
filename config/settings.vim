@@ -36,6 +36,7 @@ set splitbelow
 set splitright
 
 let NERDTreeShowHidden=1
+let NERDTreeWinPos="right"
 
-let g:localvimrc_ask = 0
+let g:localvimrc_ask=0
 

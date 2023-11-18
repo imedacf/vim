@@ -13,3 +13,10 @@ let g:ctrlp_max_depth=40
 let g:ctrlp_working_path_mode=""
 let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git\|dccache\|dist'
 
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = {
+\ 'dir':  '\v[\/]\.(git|ide|vscode|history|other_large_dirs)$',
+\ 'file': '\v\.(exe|so|dll|class)$',
+\ 'link': 'some_bad_symbolic_links',
+\ }
+
