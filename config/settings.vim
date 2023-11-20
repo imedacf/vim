@@ -5,9 +5,16 @@ set re=0
 " colorscheme apprentice
 " colorscheme archery
 " colorscheme dogrun
-colorscheme focuspoint
+" colorscheme focuspoint
 " colorscheme gotham
 " colorscheme PaperColor
+" colorscheme catppuccin_mocha
+" colorscheme catppuccin_macchiato
+" colorscheme xcodedarkhc
+" colorscheme cyberpunk
+" colorscheme spacecamp
+" colorscheme monokai-phoenix
+colorscheme embark
 
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
