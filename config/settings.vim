@@ -7,9 +7,15 @@ set re=0
 " colorscheme dogrun
 " colorscheme focuspoint
 " colorscheme gotham
-colorscheme PaperColor
+" colorscheme PaperColor
 " colorscheme badwolf
 " colorscheme hybrid
+" colorscheme lucid
+" colorscheme molokaiez
+" colorscheme synthwave
+colorscheme hotline
+
+set guifont=Monaco:h13
 
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that

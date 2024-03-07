@@ -35,3 +35,16 @@ vnoremap <leader>p "+p
 " Open terminal + vertical
 nnoremap <leader>t :vert term<CR>
 
+" Move line Up/Down
+nnoremap <c-j> :m .+1<CR>==
+nnoremap <c-k> :m .-2<CR>==
+inoremap <c-j> <Esc>:m .+1<CR>==gi
+inoremap <c-k> <Esc>:m .-2<CR>==gi
+vnoremap <c-j> :m '>+1<CR>gv=gv
+vnoremap <c-k> :m '<-2<CR>gv=gv
+
+" FZF
+nnoremap <leader>sf :Files<CR>
+nnoremap <leader>sw :Rg<CR>
+nnoremap <leader>b :Buffers<CR>
+
