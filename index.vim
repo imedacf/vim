@@ -1,10 +1,13 @@
-source ~/.vim/config/settings.vim
-source ~/.vim/config/plug.vim
+let path = expand('~/.config/vim')
+let configPath = path . '/config'
+
+execute 'source' configPath . '/settings.vim'
+execute 'source' configPath . '/plug.vim'
 
 let mapleader = "\ "
-let g:user_emmet_leader_key=','     " Emmet Configuration
+let g:user_emmet_leader_key = ','     " Emmet Configuration
 
-source ~/.vim/config/ctrlp.vim
-source ~/.vim/config/lsp.vim
-source ~/.vim/config/keys.vim
+execute 'source' configPath . '/ctrlp.vim'
+execute 'source' configPath . '/lsp.vim'
+execute 'source' configPath . '/keys.vim'
 

@@ -1,2 +1,6 @@
-source ~/.vim/index.vim
+set runtimepath+=~/.config/vim
+
+call plug#begin('~/.config/vim/plugged')
+
+source ~/.config/vim/index.vim
 

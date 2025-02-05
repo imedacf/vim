@@ -1,6 +1,6 @@
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.config/vim/bundle/ctrlp.vim
 
-:helptags ~/.vim/bundle/ctrlp.vim/doc
+:helptags ~/.config/vim/bundle/ctrlp.vim/doc
 
 " if has("gui_macvim")
 " 	let g:ctrlp_map = '<D-p>'
